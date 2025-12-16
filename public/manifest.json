@@ -1,0 +1,15 @@
+{
+  "short_name": "DAIL",
+  "name": "DAIL - Database of AI Litigation",
+  "icons": [
+    {
+      "src": "etiLogo.jpg",
+      "sizes": "76x76",
+      "type": "image/jpeg"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#003c5a",
+  "background_color": "#ffffff"
+}

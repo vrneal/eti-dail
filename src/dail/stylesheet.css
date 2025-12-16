@@ -1,0 +1,118 @@
+section[class^="cbFormSection"] > div:last-child {
+  margin-top: 24px;
+  width: 100%;
+}
+
+section.cbFormSection_45efd1e4631075 {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  max-width: 1000px !important;   /* Increase as needed */
+  width: 100% !important;
+  margin: 0 auto;
+}
+
+.cbFormBlock1_1e311e04815a2f { grid-row: 1; grid-column: 1; }
+.cbFormBlock2_1e311e04815a2f { grid-row: 2; grid-column: 1; }
+.cbFormBlock3_1e311e04815a2f { grid-row: 3; grid-column: 1; }
+.cbFormBlock4_1e311e04815a2f { grid-row: 4; grid-column: 1; }
+.cbFormBlock5_1e311e04815a2f { grid-row: 1; grid-column: 2; }
+.cbFormBlock6_1e311e04815a2f { grid-row: 2; grid-column: 2; }
+.cbFormBlock7_1e311e04815a2f { grid-row: 3; grid-column: 2; }
+.cbFormBlock8_1e311e04815a2f { grid-row: 4; grid-column: 2; }
+
+
+div[id^="cbOuterAjaxCtnr_"] {
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: auto;     
+  box-sizing: border-box;
+  position: relative;
+}
+div[id^="cbOuterAjaxCtnr_"] table {
+  width: 100% !important;
+  max-width: 100% !important;
+  table-layout: auto !important;
+  box-sizing: border-box;
+}
+div[id^="cbOuterAjaxCtnr_"] td,
+div[id^="cbOuterAjaxCtnr_"] th {
+  max-width: 200px;         /* Adjust as needed */
+  min-width: 0 !important;
+  white-space: normal !important;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+div[id^="cbOuterAjaxCtnr_"] th {
+  white-space: nowrap !important;
+}
+
+section[class^="cbFormSection"] label {
+  color: #003c5a;      
+  font-weight: bold;
+}
+
+
+/* SEARCH BUTTON */
+button,
+input[type="button"],
+input[type="submit"] {
+  background-color: #027FAA;
+  color: #fff;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 16px;
+  margin-right: 8px;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+	background: #158db5;
+}
+
+/* DETAILS PAGE */
+[class^="cbFormSection_"],
+[class*=" cbFormSection_"] {
+  background-color: transparent !important;
+  border-width: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+/* Also remove top spacing from all children */
+[class^="cbFormSection_"] > *:first-child,
+[class*=" cbFormSection_"] > *:first-child,
+[class*=" cbFormDataCell_"] > *:first-child,
+[class^=" cbFormDataCell_"] > *:first-child
+{
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.case-title-bar [class^="cbFormBlock1_"] .cbFormData,
+.case-title-bar [class*=" cbFormBlock1_"] .cbFormData {
+  color: #fcfdfd !important;
+  font-weight: bold !important;
+}
+
+.cbFormLabelCell:not([class*="cbFormBlock1_"]),
+.cbFormDataCell:not([class*="cbFormBlock1_"]),
+.cbFormLabelCell:not([class^="cbFormBlock2_"]),
+.cbFormDataCell:not([class*="cbFormBlock2_"]) .cbFormData {
+  font-size: 1rem !important;
+}
+
+/* Make all document list text 1rem */
+.cbResultSetListViewTableOddCell,
+.cbResultSetListViewTableEvenCell,
+.cbResultSetPanelDataContainer,
+.cbResultSetListViewDataLabel,
+.cbResultSetData,
+.cbResultSetDataLink {
+  font-size: .95rem !important;
+}
+
