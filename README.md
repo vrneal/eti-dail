@@ -30,10 +30,9 @@
 
 
 
-Misc: 
+# Misc: 
 Portions of the code use the below stylistic attributes from Creative Tim which are openly available. Where features are used, it is indicated. 
-## Licensing
-
+Licensing
 - Copyright 2023 [Creative Tim](https://www.creative-tim.com?ref=readme-mkr)
 - Creative Tim [license](https://www.creative-tim.com/license?ref=readme-mkr)
 MIT License, Copyright (c) 2017 Creative Tim
