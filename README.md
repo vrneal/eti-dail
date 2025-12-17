@@ -1,12 +1,20 @@
 ## Deployment instructions (GoDaddy File Manager)
-1. install: 
-2. confirm installation:
-3. run - npm run build, this will create a build folder
-4. upload the contents inside the build folder to the public folder on goDaddy (only contents within the folder, not the build folder itself)
+1. install: node.js and visual code studio.
+2. Open visual studio code and create a new project/folder for DAIL locally.
+3. From the header tab, open a new terminal.
+4. Enter the following commands: (1) git init (2) git remote add origin https://github.com/vrneal/eti-dail.git (3) git checkout -b master (4) git pull
+5. The project should be available locally for you. If there are errors, email me. 
+6. confirm installation of node. Enter the following in the terminal: (1) npm -v, and (2) node -v
+7. if you see numbers, good, else, email me or reinstall node.
+8. edit the text you would like to change (SEE UPDATING TEXT BELOW)
+9. save all
+10. run - npm run build, this will create a build folder on your computer.
+11. upload the contents inside the build folder to the public folder on goDaddy (only contents within the folder, not the build folder itself).
 
 
 ## Deployment instructions (future - git pages)
 
+adding these now, this will make the process much easier so that when I leave it will be far easier to update!
 
 
 ## FILE STRUCTURE
